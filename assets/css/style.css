@@ -56,9 +56,9 @@ ul {
     position: relative;
     top: 50px;
     left: 250px;
-    margin: 25px auto;
+    margin-bottom: 25px;
     height: 250px;
-    width: 400px;
+    width: 50%;
     background-color: grey;
     overflow: hidden;
 }
@@ -69,7 +69,8 @@ ul {
 
 .sub-article-title {
     width: 100%;
-    padding: 10px 0px;
+    height: 50px;
+    vertical-align: text-top;
     font-weight: bold;
     display: block;
     font-size: 20px;
@@ -78,6 +79,7 @@ ul {
     background-color: white;
     opacity: 0.8;
     text-align: center;
+    transition: 500ms;
 }
 
 .sub-article-title a {
@@ -85,12 +87,52 @@ ul {
     text-decoration: none;
 }
 
+.subtitle {
+    top: 20px;
+    margin: auto;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.sub-article-button {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    width: 40px;
+}
+
+.sub-article-button img {
+    width: 100%
+}
+
+.sub-article-button:hover {
+    height: 500px;
+}
+
+.description {
+    font-weight: lighter;
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
 .right-sidebar {
     color: grey;
     float: left;
     position: fixed;
     top: 80px;
-    left: 700px;
+    right: 100px;
+}
+
+#timeline {
+    text-decoration: underline;
+}
+
+.right-menuitem {
+    margin-bottom: 20px;
 }
 
 .article {
