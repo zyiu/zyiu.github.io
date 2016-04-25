@@ -57,7 +57,7 @@ ul {
     top: 50px;
     left: 250px;
     margin: 25px auto;
-    height: 200px;
+    height: 250px;
     width: 400px;
     background-color: grey;
     overflow: hidden;
@@ -85,23 +85,44 @@ ul {
     text-decoration: none;
 }
 
+.right-sidebar {
+    color: grey;
+    float: left;
+    position: fixed;
+    top: 80px;
+    left: 700px;
+}
+
 .article {
     font-family: 'Roboto', sans-serif;
     position: relative;
     top: 50px;
     left: 200px;
-    height: 900px;
-    width: 700px;
+    width: 650px;
     background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.article-image {
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 100%;
 }
 
 .article-title {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
     font-weight: bold;
     display: block;
     font-size: 24px;
+    padding-top: 10px;
+    border-bottom: 2px solid grey;
 }
 
 .article-content {
@@ -111,20 +132,28 @@ ul {
     margin: auto;
     margin-top: 20px;
     display: block;
+    line-height: 2;
 }
 
 .profile-container {
+    width: 300px;
     position: relative;
     top: 50px;
+    left: 300px;
     text-align: center;
 }
 
 #about-me {
+    margin-top: 20px;
     font-size: 40px;
     color: grey;
 }
 
-#profile-photo img {
+#profile-photo {
     width: 300px;
+}
+
+#profile-photo img {
+    width: 100%;
     border-radius: 300px;
 }
