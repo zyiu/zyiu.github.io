@@ -1,10 +1,15 @@
 body {
     background-color: #f7f7f7;
     font-family: 'Roboto', sans-serif;
+    min-width: 1024px;
 }
 
 ul {
     list-style-type: none;
+}
+
+a:hover {
+    color: #ff0066;
 }
 
 .about {
@@ -46,21 +51,25 @@ ul {
     text-decoration: none;
 }
 
+.menu-item a:hover {
+    color: #ff0066;
+}
+
 .content {
-    float: left;
+    position: relative;
+    top: 50px;
+    left: calc(50% - 250px);
 }
 
 .sub-article {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    position: relative;
-    top: 50px;
-    left: 250px;
     margin-bottom: 25px;
     height: 250px;
-    width: 50%;
+    width: 500px;
     background-color: grey;
     overflow: hidden;
+    position: relative;
 }
 
 .sub-article img {
@@ -71,9 +80,9 @@ ul {
     width: 100%;
     height: 50px;
     vertical-align: text-top;
-    font-weight: bold;
     display: block;
     font-size: 20px;
+    font-weight: normal;
     position: absolute;
     bottom: 0px;
     background-color: white;
@@ -84,6 +93,11 @@ ul {
 
 .sub-article-title a {
     color: black;
+    text-decoration: none;
+}
+
+.sub-article-title a:hover {
+    color: #ff0066;
     text-decoration: none;
 }
 
@@ -120,11 +134,13 @@ ul {
 }
 
 .right-sidebar {
+    height: 700px;
+    width: 200px;
     color: grey;
-    float: left;
     position: fixed;
     top: 80px;
-    right: 100px;
+    left: calc(75% + 100px);
+    right: 150px;
 }
 
 #timeline {
@@ -135,11 +151,16 @@ ul {
     margin-bottom: 20px;
 }
 
-.article {
-    font-family: 'Roboto', sans-serif;
+.article-container {
+    float: left;
     position: relative;
     top: 50px;
-    left: 200px;
+    left: calc(50% - 325px);
+}
+
+.article {
+    font-family: 'Roboto', sans-serif;
+
     width: 650px;
     background-color: white;
     padding-bottom: 25px;
@@ -163,7 +184,7 @@ ul {
     font-weight: bold;
     display: block;
     font-size: 24px;
-    padding-top: 10px;
+    padding-top: 20px;
     border-bottom: 2px solid grey;
 }
 
@@ -181,7 +202,7 @@ ul {
     width: 300px;
     position: relative;
     top: 50px;
-    left: 300px;
+    left: calc(50% - 150px);
     text-align: center;
 }
 
@@ -198,4 +219,16 @@ ul {
 #profile-photo img {
     width: 100%;
     border-radius: 300px;
+}
+
+.bio {
+    margin-top: 25px;
+}
+
+.contact-container {
+    width: 300px;
+    position: relative;
+    top: 50px;
+    left: calc(50% - 150px);
+    text-align: center;
 }
