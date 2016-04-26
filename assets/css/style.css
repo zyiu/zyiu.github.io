@@ -235,3 +235,14 @@ a:hover {
     border: 5px solid grey;
     background-color: white;
 }
+
+.icon {
+    margin-top: 60px;
+    margin-bottom: -50px;
+    width: 75px;
+}
+
+.social-media {
+    font-size: 18px;
+    line-height: 4;
+}
