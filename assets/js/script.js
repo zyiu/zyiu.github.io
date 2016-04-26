@@ -9,7 +9,10 @@ $('.sub-article-button').click(function() {
         $(this).parent().css('height', 250);
         $(this).children().attr('src','assets/img/arrow-down.png');
     }
-
 });
+
+$("#card").flip();
+
+
 
 });
