@@ -57,6 +57,7 @@ a:hover {
     position: relative;
     top: 50px;
     left: calc(50% - 250px);
+    padding-bottom: 40px;
 }
 
 .sub-article {
