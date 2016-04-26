@@ -11,8 +11,12 @@ $('.sub-article-button').click(function() {
     }
 });
 
+$('.title').hover(function() {
+    $('.title').css('border-bottom', '5px solid #ff0066');
+},  function() {
+    $('.title').css('border-bottom', '5px solid #5bf26e');
+})
+
 $("#card").flip();
-
-
 
 });
