@@ -69,6 +69,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
     background-color: grey;
+    border-radius: 15px;
 }
 
 .sub-article img {
@@ -111,7 +112,7 @@ a:hover {
 .sub-article-button {
     width: 40px;
     position: absolute;
-    top: 9px;
+    top: 7px;
     right: 10px;
     cursor: pointer;
 }
@@ -214,7 +215,7 @@ a:hover {
 
 #profile-photo img {
     width: 100%;
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 300px;
 }
 
