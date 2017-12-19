@@ -1,77 +1,273 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Dabbler</title>
-        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300|Lato:400,300|Roboto' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-        </script>
-        <script src = "assets/js/script.js"></script>
-    </head>
-    <body>
-        <div class="sidebar">
-            <a href="index.html">
-                <div class="title">
-                    DABBLER
-                </div>
-            </a>
-            <div class="menu">
-                <ul>
-                    <li class="menu-item">
-                        <a href="about/about.html"> ABOUT </a>
-                    </li>
+	<head>
+		<title>Zachary Yiu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-                    <li class="menu-item">
-                        <a href="https://github.com/zyiu">
-                            GITHUB
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="https://twitter.com/zacharyyiu">
-                            TWITTER
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="sub-article-content">
-            <div class="sub-article">
-                <div class="sub-article-image">
-                    <img src="assets/img/washing_machine.jpg"/>
-                </div>
-                <div class="sub-article-title">
-                    <a href="https://drive.google.com/file/d/0B3CbbU8YcVaHSzlxX3FGLUM0RWM/view?usp=sharing">
-                        WASHING MACHINE REDESIGN </a>
-                    <div class="subtitle">
-                        January 28, 2017
-                    </div>
-                    <div class="sub-article-button">
-                        <img id="arrow-button" src="assets/img/arrow-up.png"/>
-                    </div>
-                    <div class="description">
-                        I used the Human-Centered Design process to redesign a more user-friendly modular washing machine.
-                    </div>
-                </div>
-            </div>
-            <div class="sub-article">
-                <div class="sub-article-image">
-                    <img src="assets/img/keyboard.jpg"/>
-                </div>
-                <div class="sub-article-title">
-                    <a href="articles/hello_world.html">
-                        HELLO WORLD! </a>
-                    <div class="subtitle">
-                        January 1, 2017
-                    </div>
-                    <div class="sub-article-button">
-                        <img id="arrow-button" src="assets/img/arrow-up.png"/>
-                    </div>
-                    <div class="description">
-                        Welcome to Dabbler!
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Zachary Yiu</h1>
+						<p>Software Developer </p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">About</a></li>
+							<li><a href="#first">Projects</a></li>
+							<li><a href="#second">Experience</a></li>
+							<li><a href="#cta">Contact</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About</h2>
+										</header>
+										<p>Hello. I'm Zach, a <b>Software Developer</b> and <b>Student</b> studying <b>Computer Science</b> at the University of California, Berkeley. My current areas of interest and experience are in <b>Mobile</b> and <b>Web Development</b>, as well as <b>UI/UX design</b>. </p>
+										<!-- <ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul> -->
+									</div>
+									<span class="image"><img src="images/prof.png" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Projects</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon major style1 fa-line-chart"></span>
+										<h3>Broker</h3>
+										<p> Developed web project in <b>HTML5</b>, <b>CSS3</b>, and <b>Javascript</b> with a team of 4 at the CalHacks 4.0 Hackathon at UC Berkeley. Crawls multiple news sources and extracts positive and negative data from stock articles to analyze market with a custom point system and graphs. <b>(<a href="https://devpost.com/software/broker">Link</a>)</b></p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-i-cursor"></span>
+										<!-- <span class="icon major style3 fa-copy"></span> -->
+										<h3>Text Editor</h3>
+										<p>Developed text editor in <b>Java</b> with cursor, word wrapping, newline, backspace, open and save, arrow key navigation, mouse input, window and text resizing, vertical scrolling, undo and redo, and text selection.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-android"></span>
+										<!-- <span class="icon major style5 fa-diamond"></span> -->
+										<h3>Picoyune Android App</h3>
+										<p>Developed prototype Android application in <b>Java</b> as primary interface to control mercury sensor remotely and provide live onscreen updates via Bluetooth.</p>
+									</li>
+									<li>
+										<span class="icon major style1 fa-tint"></span>
+										<h3>Washing Machine Concept Design</h3>
+										<p> Conceptualized and designed modular washing machine using <b>Human-Centered Design</b> process. Conducted user research and created presentation with visual mockups using Adobe <b>Illustrator</b> and <b>InDesign</b>. <b>(<a href="resources/washing_machine.pdf">Link</a>)</b></p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-map"></span>
+										<h3>BearMaps</h3>
+										<p> Used QuadTree data structure to create a <b>Java</b> based maps application for rendering, rastering, and routing (Implementing A* algorithm for routing optimization) within the Berkeley area. </p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-cart-plus"></span>
+										<h3>Digital Fridge</h3>
+										<p> Developed iOS application in <b>Swift</b> that enables a user to keep track of expiring items in their refrigerator in a detailed list view. Uses firebase to sync data and images between user accounts. <b>(<a href="https://github.com/zyiu/fridge">Link</a>)</b></p>
+									</li>
+								</ul>
+								<!-- <footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Experience</h2>
+								</header>
+								<!-- <ul class="statistics">
+									<li class="style1">
+										<span class="icon fa-code-fork"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open-o"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-diamond"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul> -->
+								<ul class="features">
+									<li>
+										<h3><b>Picoyune</b> <br>
+											<sub>Software Engineering Intern</sub>
+										</h3>
+										<ul class="exp-description">
+											<li>Redesigned and implemented new GUI for flagship mercury sensor using Sketch and Python.</li>
+											<li>Develop Android application to interface with flagship sensor in Java using Android Studio IDE.</li>
+											<li>Develop bash shell scripts to automate build deployment.</li>
+											<li>Maintain and develop sensor back-end operation with various hardware components in Python.</li>
+										</ul>
+										<!-- <p>
+											Redesigned and implemented new GUI for flagship mercury sensor using Sketch and Python.
+											Develop Android application to interface with flagship sensor in Java using Android Studio IDE.
+											Develop bash shell scripts to automate build deployment to Linux-based BeagleBoard SBC.
+										</p> -->
+									</li>
+									<li>
+										<h3><b>Novani, LLC</b> <br>
+											<sub>Network Engineering Intern</sub>
+										</h3>
+										<ul class="exp-description">
+											<li>Facilitated large scale deployment of Lenovo laptops for furniture distribution client.</li>
+											<li>Configured installed and imaged hardware for clients from vendors including HP, Lenovo, EMC, Brocade, Sonicwall, WatchGuard, Ruckus, and Meraki.</li>
+											<li>Provided both remote and in-person I.T. technical support and expertise for Windows and Mac users in a corporate environment.</li>
+										</ul>
+									</li>
+									<li>
+										<h3><b>Diversatech at Berkeley</b> <br>
+											<sub>Senior Tech Consultant</sub>
+										</h3>
+										<ul class="exp-description">
+											<li>Designed and implemented functional mobile chatbot service with client Smartex for agricultural use in West Bengal. Led NLP implementation with Google's Dialogflow to recognize various queries about weather and crops. </li>
+											<li>Designed and developed pricing strategy for Chilean real estate data analysis client Hitmap for integration into the San Francisco Bay Area market.</li>
+										</ul>
+									</li>
+									<li>
+										<h3><b>UC Berkeley Student Affairs I.T.</b> <br>
+											<sub>Unit Supervisor</sub>
+										</h3>
+										<ul class="exp-description">
+											<li>Manage a team of seven consultants to provide technical support to university students as well as residents at University Village housing.</li>
+											<li>Lead technical training workshop sessions for consultant staff.</li>
+											<li>Manage and write technical documentation for internal Confluence page.</li>
+										</ul>
+										<!-- <p>
+											Manage a team of seven consultants to provide technical support to university students as well as residents at University Village housing.
+											Lead technical training workshop sessions for consultant staff.
+											Manage and write technical documentation for internal Confluence page.
+										</p> -->
+									</li>
+									<li>
+										<h3><b>UC Berkeley Student Affairs I.T.</b> <br>
+											<sub>Student Technology Consultant</sub>
+										</h3>
+										<ul class="exp-description">
+											<li>Operated in team of seven to diagnose and resolve a wide range of computer hardware, software, and network connectivity issues for university residents in-person, online, and over the phone.</li>
+											<li>Maintained online ticket help queue using the ServiceNow online software service.</li>
+										</ul>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="resources/resume.pdf" class="button"> <span class="icon fa-download"></span> Resumé</a></li>
+										<!-- <li><a href="generic.html" class="button">Learn More</a></li> -->
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Let's get in touch</h2>
+									<!-- <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p> -->
+								</header>
+
+								<footer class="major">
+									<form method="post" action="http://formspree.io/zacharyyiu.web@gmail.com">
+										<div class="row uniform">
+											<div class="12u$">
+												<input type="email" name="_replyto" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<textarea name="body" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<div class="12u$">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="special" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<ul class="icons">
+										<li><a href="https://twitter.com/zacharyyiu" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/zacharyyiu" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+										<li><a href="www.linkedin.com/in/zacharyyiu" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/zyiu" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section> -->
+						<p class="copyright">&copy; Zachary Yiu. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
